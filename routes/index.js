@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* about page*/
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Smith Designs' });
+  res.render('about', { title: 'Smith Designs' });
 });
 
 /*photography page*/
@@ -28,7 +28,7 @@ router.get('/art', function(req, res, next) {
 
 /*contact page*/
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Us!' });
+  res.render('contact', { title: 'Smith Designs!' });
 });
 
 module.exports = router;
