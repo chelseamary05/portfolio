@@ -1,11 +1,79 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<%- include partials/header.ejs %>
+
+  <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">About
+                        <strong><%= title %></strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="images/2014-grad.jpg" alt="Smith Designs Logo">
+                </div>
+                <div class="col-md-6">
+                    <p>As a creatively driven person, focusing on fluid design and development.</p>
+                    <p>Working with diffrent media whether it's picking up a camera, hiding behind a laptop, bring out a Sketch book using all the tools I have at my finger tips.</p>
+                    <p>Taking great pride in every project, looking over every pixel for the sligtest imperfection.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Diffrent
+                        <strong>Skills</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="images/photo-camera.png" alt="Camera Icon">
+                    
+                    <h3><a href="/photography">Photography<br />
+                        <small>Not afraid to get out and take some beautiful photos</a></small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="images/programming.png" alt="Web development Icon">
+                    <h3><a href="/web">Web Development<br />
+                        <small>Taking pride in every site that is built</a></small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="images/paint-board-and-brush.png" alt="">
+                    <h3><a href="/art">Art and Design<br />
+                        <small>Loving art and Designs of all shapes and sizes</small></a></small>
+                    </h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Chelsea Smith - 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>

@@ -6,3 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
+
+.img-responsive {margin: auto!important;}
+
+.image-row {margin-bottom: 30px!important;}

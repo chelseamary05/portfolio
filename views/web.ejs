@@ -1,11 +1,77 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<%- include partials/header.ejs %>
+
+<div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Previously
+                        <strong><%= title %> Work</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="images/client-examle.png" alt="Client page">
+                </div>
+                <div class="col-md-6">
+                    <p>Working on a range of websites, with varying functionality and industries.</p>
+                    <p>Building websites that are SEO optimised, simple content and mobile responsive.</p>
+                </div>
+                </div>
+    </div>
+            <div class="row">
+                <div class="box">
+                <div class="col-md-6">
+                    <p>While building a verity of website I always take pride that the site I built matches the design.</p>
+                    <p>Pixel For Pixel.</p>
+                </div>
+               
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="images/searchanalytics.png" alt="Code examples">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+    </div>
+    
+<div class="row">
+    <div class="box">
+                <div class="col-md-6">
+    <h3 class="intro-text">Website build while with Tygershark</h3>
+                   
+    <small>All local Barrie businesses</small>
+        </div>
+    <div class="col-md-6">
+    <ul class="custom-bullet">
+    <li><a href="http://www.ultimatefc.ca/" target="_blank"/>Ultimate Family Chiropractic</li>
+    <li><a href="http://www.cravingsfinefood.ca/" target="_blank"/>Cravings Fine Foods</li>
+    <li><a href="http://www.thelakesideclinic.com/" target="_blank"/>The Lake Side Clinic</li>
+    <li><a href="http://www.chapnickdental.com/" target="_blank"/>Molson Park Dental</li>
+    <li><a href="http://www.albarrie.com/" target="_blank"/>Albarrie</li>
+    <li><a href="http://www.ubburger.com/" target="_blank"/>Union Burger</li>
+    </ul>
+</div>
+    </div>
+</div>
+</div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Chelsea Smith 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
